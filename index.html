@@ -3,201 +3,47 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link rel="icon" href="Images/pfp.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danao</title>
-
-    <style>
-        * {
-            font-family: 'Ubuntu Condensed', sans-serif;
-        }
-
-        body::-webkit-scrollbar{
-            display: none;
-        }
-
-        body {
-            background-color: #660000;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            overflow: scroll;
-        }
-
-        header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 1rem;
-            border-radius: 10px;
-            border: #5F021F solid 2px;
-            background-color: rgba(255, 144, 0, 0.8);
-            width: min(20% - 50px, 850px);
-            margin: 10px;
-            transition: 0.5s;
-        }
-
-        header:hover {
-            background-color: rgba(255, 144, 0, 1);
-            width: min(100% - 50px, 850px);
-            transform: scale(1.1);
-            transition: 0.6s linear;
-            margin: 100px;
-        }
-
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .head-container {
-            opacity: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            transition: 0.5s linear;
-        }
-
-        .head-container:hover {
-            opacity: 1;
-            transition: 0.5s linear;
-        }
-
-        .img-pfp {
-            width: 10%;
-            border-radius: 90px;
-            background-color: rgba(73, 81, 89,  0.8);
-            padding: 5px;
-        }
-
-        .soc-med {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-        }
-
-        .img-soc-med {
-            width: 5%;
-            border-radius: 90px;
-            background-color: rgba(73, 81, 89,  0.8);
-            margin: 10px;
-            padding: 5px;
-            transition: 0.5s linear;
-        }
-
-        .img-soc-med:hover {
-            background-color: rgb(200, 206, 212);
-            transition: 0.5s linear;
-        }
-
-        .soc-med-icons {
-            display: contents;
-            text-decoration: none;
-            justify-content: center;
-            align-items: center;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 1rem;
-            border-radius: 10px;
-            border: #5F021F solid 2px;
-            background-color: rgba(255, 144, 0, 0.8);
-            width: min(20% - 50px, 850px);
-            height: min(10% - 10px, 100px);
-            margin: 10px;
-            transition: 0.5s;
-            height: 340px;
-        }
-
-        main:hover {
-            background-color: rgba(255, 144, 0, 1);
-            width: min(100% - 50px, 1050px);
-            transform: scale(1.1);
-            transition: 0.6s linear;
-            margin: 100px;
-        }
-
-        .main-sec-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .main-container {
-            opacity: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            transition: 0.5s linear;
-            height: 320px;
-            font-size: 10px;
-            text-align: center;
-        }
-
-        .main-container:hover{
-            opacity: 1;
-            transition: 0.5s linear;
-            font-size: medium;
-        }
-
-
-    </style>
 </head>
 <body>
-    <header>
-        <section class="header-container">
-            <h1>Student's Profile</h1>
-            <section class="head-container">
-                <img class="img-pfp" src="Images/pfp.jpg" alt="profile">
-                <h2>Adrian F. Danao</h2>
-                <h3>3rd Year Computer Engineering Student</h3>
-                <p>My Socials:</p>
-                <section class="soc-med">
-                    <a href="https://facebook.com/adrian.danao22" target="_blank" class="soc-med-icons">
-                        <img src="Images/fb-pic.png" alt="facebook" class="img-soc-med">
-                    </a>
-                    <a href="https://https://twitter.com/GussiFruits" target="_blank" class="soc-med-icons">
-                        <img src="Images/twt-pic.png" alt="twitter" class="img-soc-med">
-                    </a>
-                    <a href="https://https://github.com/Gussi22" target="_blank" class="soc-med-icons">
-                        <img src="Images/gh-pic.png" alt="github" class="img-soc-med">
-                    </a>
-                    <a href="https://Gussi22.github.io/fruitsalads" target="_blank" class="soc-med-icons">
-                        <img src="Images/cs-pic.png" alt="salad" class="img-soc-med">
-                    </a>
-                </section>
-            </section>
-        </section>
-    </header>
-    <main>
-        <section class="main-sec-container">
-            <h1>Self-Description</h1>
-            <section class="main-container">
-                <h3>
-                    I'm currently a Computer Engineering 3rd Year Student who's absolutely thrilled by all things tech. My days are spent diving deep into the world of circuits, algorithms, and software. But that's not all - I'm also a passionate Discord Bot Developer. I love putting my coding skills to work, creating bots that add a spark of interactivity to online communities. It's like breathing life into lines of code!
-                </h3>
-                <h3>
-                    On top of that, I take on the role of the Trainings and Workshop Director of the SCPES. Sharing knowledge is a big deal for me, so I organize and lead various sessions where I get to pass on what I know. It's incredibly fulfilling to see fellow students and colleagues light up with understanding as I break down complex topics. I guess you could say I'm all about empowering others to embrace the tech world.
-                </h3>
-                <h3>
-                    So yeah, in a nutshell, I'm a tech enthusiast who's juggling being a Computer Engineering Student, a Discord Bot Developer, and a Trainings and Workshop Director. It's a busy life, but I wouldn't have it any other way!
-                </h3>
-            </section>
-        </section>
-    </main>
+    <div class="wrapper">
+        <div class="box">
+            <input type="radio" name="box" id="box1" checked="checked">
+            <label for="box1">Profile</label>
+            <div class="content">
+                <img src="Images/pfp.jpg" alt="pfp" class="img-pfp">
+                <h1>Adrian F. Danao</h1>
+                <p>3rd Year Computer Engineering Student</p>
+                <h2>My Socials:</h2>
+                <ul>
+                    <li><a href="https://facebook.com/adrian.danao22" target="_blank"><img src="Images/fb-pic.png" alt="facebook" class="img-soc"></a></li>
+                    <li><a href="https://twitter.com/gussifruits" target="_blank"><img src="Images/twt-pic.png" alt="facebook" class="img-soc"></a></li>
+                    <li><a href="https://github.com/Gussi22" target="_blank"><img src="Images/gh-pic.png" alt="facebook" class="img-soc"></a></li>
+                    <li><a href="https://Gussi22.github.io/fruitsalads" target="_blank"><img src="Images/cs-pic.png" alt="facebook" class="img-soc"></a></li>
+                </ul>
+            </div>
+
+            <input type="radio" name="box" id="box2">
+            <label for="box2">Description</label>
+            <div class="content">
+                <h1>Who Am I?</h1>
+                <p style="font-size: 120%;">I'm currently a Computer Engineering Student who's absolutely thrilled by all things tech. My days are spent diving deep into the world of circuits, algorithms, and software. But that's not all - I'm also a passionate Discord Bot Developer. I love putting my coding skills to work, creating bots that add a spark of interactivity to online communities. It's like breathing life into lines of code!</p>
+                <p style="font-size: 120%;">On top of that, I take on the role of Trainings and Workshop Director. Sharing knowledge is a big deal for me, so I organize and lead various sessions where I get to pass on what I know. It's incredibly fulfilling to see fellow students and colleagues light up with understanding as I break down complex topics. I guess you could say I'm all about empowering others to embrace the tech world.</p>
+                <p style="font-size: 120%;">So yeah, in a nutshell, I'm a tech enthusiast who's juggling being a Computer Engineering Student, a Discord Bot Developer, and a Trainings and Workshop Director. It's a busy life, but I wouldn't have it any other way!</p>
+            </div>
+
+            <input type="radio" name="box" id="box3">
+            <label for="box3">Other Info</label>
+            <div class="content">
+                <h1>Other Info</h1>
+                <p style="font-size: 120%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facilis tempora laborum praesentium distinctio, ipsa voluptate quibusdam suscipit? Non autem repellendus doloremque esse veniam sint, rerum vero eligendi earum ad quisquam natus dignissimos incidunt, voluptatum doloribus vitae eaque nihil quos eveniet commodi qui, beatae repudiandae excepturi ipsam! Autem quidem eum impedit! Laboriosam, eos quisquam vitae amet repellat non dicta tempore vel aspernatur inventore unde tenetur cupiditate maxime expedita beatae sunt hic facere ad vero at, omnis adipisci. Quia cumque rem nesciunt, totam dolorum aut impedit natus? Ipsa nisi expedita fugit!</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
