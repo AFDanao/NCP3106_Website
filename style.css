@@ -88,6 +88,10 @@ body {
         align-items: center;
         height: 100%;
     }
+
+    body {
+        overflow: auto;
+    }
 }
 
 ul {
