@@ -1,6 +1,53 @@
 body {
     background: #79745C;
-    overflow: hidden;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #79745C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #704E2E;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #756145;
+}
+
+ul.head {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    background-color: rgba(127, 127, 127, 0.6);
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: start;
+}
+
+.btnMenu {
+    border: none;
+    background-color: #704E2E;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.menu {
+    margin-left: 5px;
+    margin-right:15px;
+    padding: 0;
+    width: fit-content;
 }
 
 .wrapper {
@@ -90,24 +137,8 @@ body {
         height: 100%;
     }
 
-    body {
-        overflow: auto;
-    }
-
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
-    
-    ::-webkit-scrollbar-track {
-        background: #79745C;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: #704E2E;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-        background: #756145;
+    .head {
+        display: none;
     }
 }
 
