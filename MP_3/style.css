@@ -1,0 +1,31 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  background-color: #6CCFF6;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgNav {
+  width: auto;
+  height: 100%;
+  max-height: 5vh;
+  border-radius: 90rem;
+}
+
+.container {
+  display: flex;
+  height: auto;
+  background-color: rgba(127, 127, 127, 0.6);
+  border-radius: 90px;
+  justify-content:center;
+  text-align: center;
+  font-size: 100px;
+}
