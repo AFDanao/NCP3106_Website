@@ -7,10 +7,15 @@ main {
 }
 
 .intro{
+  background: linear-gradient(rgba(127, 127, 127, 0.8), rgba(0, 0, 0, 0.8)), url("Images/arduino-workshop.jpg");
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 20%;
+  min-height: 92vh;
 }
 
 .imgNav {
@@ -28,4 +33,53 @@ main {
   justify-content:center;
   text-align: center;
   font-size: 100px;
+  color: white;
+}
+
+.container-intro {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  height: fit-content;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.intro-desc {
+  font-size: 200%;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul li {
+  margin: 10px;
+  list-style: none;
+  height: fit-content;
+}
+
+ul li a {
+  text-decoration: none;
+  background-color: rgba(127, 127, 127, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: black;
+  transition: 0.5s;
 }
