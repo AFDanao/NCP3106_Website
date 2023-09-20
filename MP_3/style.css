@@ -2,8 +2,25 @@
   font-family: 'Inter', sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 main {
-  background-color: #6CCFF6;
+  background-color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .intro {
+    background-size: 100%;
+  }
+
+  .btnContainer-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .intro{
@@ -52,35 +69,24 @@ main {
   color: white;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-ul li {
-  margin: 10px;
-  list-style: none;
-  height: fit-content;
-}
-
-ul li a {
+.btn {
   text-transform: uppercase;
-  text-decoration: none;
-  background-color: rgba(127, 127, 127, 0.8);
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 20px;
-  color: white;
-  transition: 0.5s;
 }
 
-ul li a:hover {
-  text-decoration: none;
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 20px;
-  color: black;
-  transition: 0.5s;
+.about .container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
 }
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  width: 80%;
+}
+
+/* .card .card-body .card-text {
+  font-size: xx-large;
+} */
