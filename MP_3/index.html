@@ -35,163 +35,402 @@
           <div class="navbar-nav">
             <a href="#" class="nav-item nav-link active">Home</a>
             <a href="#about" class="nav-item nav-link active">About</a>
-            <a href="#" class="nav-item nav-link active">Messages</a>
+            <a href="#special" class="nav-item nav-link active"
+              >Specialization</a
+            >
+            <a href="#activities" class="nav-item nav-link active"
+              >Activities</a
+            >
+            <a href="#department" class="nav-item nav-link active"
+              >Department</a
+            >
           </div>
         </div>
       </div>
     </nav>
     <main>
       <div class="intro" id="intro">
-        <div class="container border my-3 py-3">
-          <h1>Welcome to the BS CpE Course Introduction!</h1>
+        <h3>University of the East - Manila Campus</h3>
+        <div class="container border py-3">
+          <h1 class="fw-bolder">Computer Engineering</h1>
         </div>
         <div class="container-intro">
-          <h2 class="intro-desc">
+          <h3 class="intro-desc">
             Where the connection between hardware and software happens
-          </h2>
+          </h3>
           <div class="my-2">
-            <a href="#about" class="btn btn-light mx-2">Get To Know Us!</a>
+            <a href="#about" class="btn btn-light mx-2 my-2">Get To Know Us!</a>
+            <a href="#special" class="btn btn-light mx-2 my-2"
+              >Learn What We Do!</a
+            >
           </div>
         </div>
       </div>
       <div class="about" id="about">
         <div class="container-fluid">
-          <div class="container border my-3 py-3">
-            <h1>What is BS CpE?</h1>
+          <div class="container border my-3 py-3 text-light">
+            <h1 class="fw-bolder">What is BS CpE?</h1>
           </div>
-          <div class="card text-center">
-            <div class="card-header">
-              <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a
-                    href="#objectives"
-                    class="nav-link active"
-                    data-bs-toggle="tab"
-                    >Objectives</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#scope" class="nav-link" data-bs-toggle="tab"
-                    >Scope</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#significance" class="nav-link" data-bs-toggle="tab"
-                    >Significance</a
-                  >
-                </li>
-              </ul>
+          <div class="container-fluid">
+            <p class="fw-bold">
+              A four-year engineering program that embodies the science and
+              technology of design, development, implementation, maintenance and
+              integration, of software and hardware components in modern
+              computing systems and computer controlled equipment.
+            </p>
+            <img src="Images/searching.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="special" id="special">
+        <div class="container-fluid">
+          <div class="container border my-3 py-3 text-dark text-center">
+            <h1 class="fw-bolder">What Do We Specialize In?</h1>
+          </div>
+          <div class="m-2">
+            <div class="row row-cols-1 row-cols-md-4 g-1">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="Images/microchip.png"
+                    class="card-img-top"
+                    alt="Embedded System"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Embedded Systems</h5>
+                    <p class="card-text">
+                      This specialization focuses on the design and development
+                      of embedded systems, which are computer systems integrated
+                      into various devices and products. Students learn how to
+                      create efficient and reliable embedded hardware and
+                      software solutions for applications like IoT devices,
+                      automotive systems, medical devices, and industrial
+                      automation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="Images/data.png"
+                    class="card-img-top"
+                    alt="Computer Architecture"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Computer Architecture</h5>
+                    <p class="card-text">
+                      Computer architecture specialists delve deep into the
+                      design and organization of computer systems. They study
+                      topics such as microprocessor design, memory hierarchies,
+                      instruction set architecture, and parallel processing.
+                      Graduates often work on optimizing the performance and
+                      energy efficiency of computer hardware.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="Images/connection.png"
+                    class="card-img-top"
+                    alt="Network Engineering"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Network Engineering</h5>
+                    <p class="card-text">
+                      Network engineering specialization prepares students to
+                      design, implement, and manage computer networks. Students
+                      learn about networking protocols, routing, security, and
+                      the configuration of network infrastructure. This
+                      specialization is crucial for careers in network
+                      administration, cybersecurity, and telecommunications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="Images/system-integration.png"
+                    class="card-img-top"
+                    alt="Digital Systems Design"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Systems Design</h5>
+                    <p class="card-text">
+                      Digital systems design specialists focus on creating
+                      digital circuits and systems, including digital signal
+                      processing, FPGA (Field-Programmable Gate Array) design,
+                      and VLSI (Very Large Scale Integration) circuit design.
+                      They work on developing and optimizing digital hardware
+                      components used in a wide range of applications, from
+                      consumer electronics to communication systems.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <div class="tab-content">
-                <div class="tab-pane fade show active" id="objectives">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <h5 class="card-title">Technical Proficiency</h5>
-                      To equip students with a strong foundation in both
-                      computer science and electrical engineering, enabling them
-                      to design, develop, and maintain computer systems and
-                      hardware.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Problem-Solving Skills</h5>
-                      To cultivate analytical and problem-solving skills,
-                      allowing students to tackle complex engineering challenges
-                      in the field of computer systems and hardware.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Innovation and Creativity</h5>
-                      To foster creativity and innovation, encouraging students
-                      to develop novel solutions, products, and technologies in
-                      the computer engineering domain.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">
-                        Interdisciplinary Understanding
-                      </h5>
-                      To promote an understanding of the interdisciplinary
-                      nature of computer engineering and its applications in
-                      various industries.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">
-                        Ethical and Professional Standards
-                      </h5>
-                      To instill ethical and professional values, emphasizing
-                      the importance of responsible engineering practices,
-                      teamwork, and lifelong learning.
-                    </li>
-                  </ul>
+          </div>
+        </div>
+      </div>
+      <div class="activities" id="activities">
+        <div class="container-fluid">
+          <div class="container border my-3 py-3 text-light text-center">
+            <h1 class="fw-bolder">What Do We Do?</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-5">
+            <div class="col">
+              <div
+                id="carouselExambleSlidesOnly"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-pause=""
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="Images/ga.jpg"
+                      class="d-block w-100"
+                      alt="Slide 1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="Images/arduino-workshop.jpg"
+                      class="d-block w-100"
+                      alt="Slide 2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="Images/trinas.jpg"
+                      class="d-block w-100"
+                      alt="Slide 3"
+                    />
+                  </div>
                 </div>
-                <div class="tab-pane fade" id="scope">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <h5 class="card-title">Hardware Development</h5>
-                      Computer engineering graduates can work on designing and
-                      developing computer hardware components such as
-                      microprocessors, memory systems, and integrated circuits.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Embedded Systems</h5>
-                      They can design embedded systems for various applications,
-                      including robotics, automotive, and IoT devices.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Software Development</h5>
-                      Graduates may also work on software development,
-                      especially in areas closely related to hardware, such as
-                      device drivers and firmware.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Networking</h5>
-                      Computer engineers can specialize in networking, working
-                      on the design and maintenance of computer networks and
-                      communication systems.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Cybersecurity</h5>
-                      With the increasing importance of cybersecurity, computer
-                      engineering graduates are well-equipped to work in this
-                      field, ensuring the security of computer systems and
-                      networks.
-                    </li>
-                  </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                id="carouselExambleSlidesOnly"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card" style="height: 60vh">
+                      <div class="card-body">
+                        <h1 class="card-title">Activities</h1>
+                        <h4 class="card-text">
+                          Organize workshops, hackathons, and coding
+                          competitions to enhance practical skills and foster a
+                          collaborative learning environment.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card" style="height: 60vh">
+                      <div class="card-body">
+                        <h1 class="card-title">Projects</h1>
+                        <h4 class="card-text">
+                          Undertake real-world projects spanning hardware and
+                          software development, from IoT solutions to advanced
+                          robotics, to apply theoretical knowledge in practical
+                          contexts.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card" style="height: 60vh">
+                      <div class="card-body">
+                        <h1 class="card-title">Initiatives</h1>
+                        <h4 class="card-text">
+                          Drive research initiatives in emerging fields like AI,
+                          cybersecurity, and green technology, promoting
+                          innovation and addressing global challenges.
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="tab-pane fade" id="significance">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                      <h5 class="card-title">Technological Advancement</h5>
-                      Computer engineering plays a crucial role in advancing
-                      technology, driving innovations in computing systems, and
-                      enabling the development of new products and services.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Career Opportunities</h5>
-                      Graduates of this program have a wide range of career
-                      opportunities in industries such as electronics,
-                      telecommunications, aerospace, automotive, and software
-                      development.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Problem Solvers</h5>
-                      Computer engineers are problem solvers who bridge the gap
-                      between hardware and software, addressing real-world
-                      challenges in diverse domains.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Critical Infrastructure</h5>
-                      Computer engineers contribute to the development and
-                      maintenance of critical infrastructure, including data
-                      centers, telecommunications networks, and transportation
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="department" id="department">
+        <div class="container-fluid">
+          <div class="container border my-3 py-3 text-dark text-center">
+            <h1 class="fw-bolder">About the Department</h1>
+          </div>
+          <div class="my-2 about-dep">
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#mission"
+                aria-expanded="false"
+                aria-controls="mission"
+              >
+                Mission
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#vision"
+                aria-expanded="false"
+                aria-controls="vision"
+              >
+                Vision
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#objectives"
+                aria-expanded="false"
+                aria-controls="objectives"
+              >
+                Objectives
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                data-bs-target="#outcomes"
+                aria-expanded="false"
+                aria-controls="outcomes"
+              >
+                Outcomes
+              </button>
+            </div>
+
+            <!-- Collapsible Element HTML -->
+            <div id="about-dep">
+              <div
+                class="collapse mx-5 px-5"
+                id="mission"
+                data-bs-parent="#about-dep"
+              >
+                <div class="card text-start">
+                  <div class="card-header">MISSION STATEMENT</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      The Department of Computer Engineering declares its role
+                      to produce competitive engineers who are knowledgeable in
+                      the fundamental areas of digital and computer system
+                      design, software development, and modeling of physical
                       systems.
-                    </li>
-                    <li class="list-group-item">
-                      <h5 class="card-title">Economic Growth</h5>
-                      The skills and expertise of computer engineers contribute
-                      significantly to economic growth by fostering innovation
-                      and competitiveness in the technology sector.
-                    </li>
-                  </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="collapse mx-5 px-5"
+                id="vision"
+                data-bs-parent="#about-dep"
+              >
+                <div class="card text-start">
+                  <div class="card-header">VISION STATEMENT</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      The Department of Computer Engineering will impact the
+                      information age as a national leader in computing,
+                      research, and education.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="collapse mx-5 px-5"
+                id="objectives"
+                data-bs-parent="#about-dep"
+              >
+                <div class="card text-start">
+                  <div class="card-header">PROGRAM EDUCATIONAL OBJECTIVES</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      After three to five years from graduation, the Computer
+                      Engineering alumni shall:
+                    </p>
+                    <ol>
+                      <li>
+                        Have pursued advancement towards becoming globally
+                        competitive leaders in their chosen field of practice
+                      </li>
+                      <li>
+                        Be a contributor to the development of a progressive
+                        society, guided by the UE core values of Excellence,
+                        Integrity, Professionalism, Teamwork, Commitment,
+                        Transparency, Accountability and Social Responsibility.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="collapse mx-5 px-5 show"
+                id="outcomes"
+                data-bs-parent="#about-dep"
+              >
+                <div class="card text-start">
+                  <div class="card-header">PROGRAM OUTCOMES</div>
+                  <div class="card-body">
+                    <ol class="card-text" type="A">
+                      <li>
+                        Apply knowledge of mathematics, science and engineering
+                      </li>
+                      <li>
+                        Design and conduct experiments, as well as to analyze
+                        and interpret data
+                      </li>
+                      <li>
+                        Design a system, component or processes to meet desired
+                        needs within realistic constraints
+                      </li>
+                      <li>Function on multi-disciplinary teams</li>
+                      <li>
+                        Identify, formulate and solve engineering problems
+                      </li>
+                      <li>
+                        Have an understanding of professional and ethical
+                        responsibilities.
+                      </li>
+                      <li>
+                        Communicate effectively in both Filipino and English
+                        languages
+                      </li>
+                      <li>
+                        Have an understanding of the impact of engineering
+                        solutions in a global and societal context
+                      </li>
+                      <li>
+                        Recognize the need for, and an ability to engage in
+                        life-long learning
+                      </li>
+                      <li>Apply knowledge of contemporary issues</li>
+                      <li>
+                        Use techniques, skills and modern engineering tools
+                        necessary for the practice of computer engineering.
+                      </li>
+                      <li>
+                        Apply knowledge and understanding of engineering and
+                        management principles as a member and leader in a team
+                        to manage projects and in multidisciplinary environments
+                      </li>
+                      <li>
+                        Understand at least one specialized field of computer
+                        engineering practice
+                      </li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>

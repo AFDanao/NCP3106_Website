@@ -2,9 +2,9 @@
   font-family: 'Inter', sans-serif;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 main {
   background-color: white;
@@ -43,9 +43,9 @@ main {
 }
 
 .container {
+  margin: auto;
   display: flex;
   height: auto;
-  background-color: rgba(127, 127, 127, 0.6);
   border-radius: 90px;
   justify-content:center;
   text-align: center;
@@ -81,12 +81,33 @@ main {
 }
 
 .card {
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   display: flex;
-  width: 80%;
+  width: 100%;
 }
 
-/* .card .card-body .card-text {
-  font-size: xx-large;
-} */
+.special .container-fluid .m-2 .row .col {
+  padding: 10px;
+  display: flex;
+}
+
+.about {
+  background-color: rgba(127, 127, 127, 0.8);
+}
+
+.special .container-fluid .m-2 .row .col .card {
+  height: 95%;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-inner {
+  padding: 10px;
+}
+
+.activities {
+  padding: 20px;
+}
