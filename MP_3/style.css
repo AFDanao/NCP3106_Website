@@ -2,25 +2,16 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
+
+h1 {
+  text-transform: uppercase;
+}
 
 main {
   background-color: white;
-}
-
-@media only screen and (max-width: 500px) {
-  .intro {
-    background-size: 100%;
-  }
-
-  .btnContainer-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 .intro{
@@ -33,6 +24,7 @@ main {
   align-items: center;
   height: 20%;
   min-height: 92vh;
+  color: white;
 }
 
 .imgNav {
@@ -43,13 +35,8 @@ main {
 }
 
 .container {
-  margin: auto;
-  display: flex;
-  height: auto;
   border-radius: 90px;
-  justify-content:center;
   text-align: center;
-  font-size: 100px;
   color: white;
 }
 
@@ -65,7 +52,6 @@ main {
 }
 
 .intro-desc {
-  font-size: 200%;
   color: white;
 }
 
@@ -80,11 +66,30 @@ main {
   align-items:center;
 }
 
+.about .container-fluid .container-fluid {
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  align-items: start;
+}
+
+.about .container-fluid .container-fluid p {
+  max-width: 40%;
+  justify-content: start;
+  font-size: 200%;
+}
+
 .card {
   margin: 10px;
   padding: 10px;
   display: flex;
   width: 100%;
+}
+
+.card-img-top {
+  height: 15vh;
+  width: auto;
+  object-fit: contain;
 }
 
 .special .container-fluid .m-2 .row .col {
@@ -100,14 +105,62 @@ main {
   height: 95%;
 }
 
-.carousel-item {
-  height: 500px;
-}
-
-.carousel-inner {
-  padding: 10px;
-}
-
 .activities {
   padding: 20px;
+  background-color: gray;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-dep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-dep .btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-dep .collapse .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+
+@media only screen and (max-width: 500px) {
+  h3{
+    text-align: center;
+  }
+
+  .btnContainer-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .container-fluid .container-fluid {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+  }
+  
+  .about .container-fluid .container-fluid p {
+    max-width: 90%;
+    justify-content: start;
+    font-size: 90%;
+  }
+
+  .about .container-fluid .container-fluid img {
+    max-width: 50%;
+  }
 }
