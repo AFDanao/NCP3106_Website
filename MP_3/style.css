@@ -147,13 +147,17 @@ main {
 }
 
 .about-dep .collapse .card {
-  box-shadow: 1px 1px 10px 2px gray;
+  box-shadow: 1px 1px 10px 2px black;
 }
 
 .department {
-  height: 120vh;
+  height: 110vh;
   background-color: gray;
   padding-top: 5px;
+}
+
+.department .container-fluid {
+  background-color: gray;
 }
 
 .department #about-dep {
