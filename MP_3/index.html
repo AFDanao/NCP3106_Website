@@ -9,6 +9,10 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,6 +45,9 @@
             <a href="#activities" class="nav-item nav-link active"
               >Activities</a
             >
+            <a href="#organization" class="nav-item nav-link active"
+              >Organization</a
+            >
             <a href="#department" class="nav-item nav-link active"
               >Department</a
             >
@@ -51,7 +58,7 @@
     <main>
       <div class="intro" id="intro">
         <h3>University of the East - Manila Campus</h3>
-        <div class="container border py-3">
+        <div class="container border pt-2">
           <h1 class="fw-bolder">Computer Engineering</h1>
         </div>
         <div class="container-intro">
@@ -68,7 +75,7 @@
       </div>
       <div class="about" id="about">
         <div class="container-fluid">
-          <div class="container border my-3 py-3 text-light">
+          <div class="container border my-3 py-3 text-light bg-dark">
             <h1 class="fw-bolder">What is BS CpE?</h1>
           </div>
           <div class="container-fluid">
@@ -84,7 +91,9 @@
       </div>
       <div class="special" id="special">
         <div class="container-fluid">
-          <div class="container border my-3 py-3 text-dark text-center">
+          <div
+            class="container border my-3 py-3 text-light text-center bg-dark"
+          >
             <h1 class="fw-bolder">What Do We Specialize In?</h1>
           </div>
           <div class="m-2">
@@ -177,13 +186,15 @@
       </div>
       <div class="activities" id="activities">
         <div class="container-fluid">
-          <div class="container border my-3 py-3 text-light text-center">
+          <div
+            class="container border my-3 py-3 text-light text-center bg-dark"
+          >
             <h1 class="fw-bolder">What Do We Do?</h1>
           </div>
-          <div class="row row-cols-1 row-cols-md-2 g-5">
+          <div class="row row-cols-1 row-cols-md-2 g-1">
             <div class="col">
               <div
-                id="carouselExambleSlidesOnly"
+                id="carouselExampleSlidesOnly"
                 class="carousel slide"
                 data-bs-ride="carousel"
                 data-pause=""
@@ -215,7 +226,7 @@
             </div>
             <div class="col">
               <div
-                id="carouselExambleSlidesOnly"
+                id="carouselExampleSlidesOnly"
                 class="carousel slide"
                 data-bs-ride="carousel"
               >
@@ -263,9 +274,47 @@
           </div>
         </div>
       </div>
+      <div class="organization" id="organization">
+        <div class="container-fluid">
+          <div
+            class="container border my-3 py-3 text-light text-center bg-dark"
+          >
+            <h1 class="fw-bolder">Organization</h1>
+          </div>
+          <div class="container my-2">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="demo-content">
+                  <img src="Images/SCPES.png" alt="scpes" />
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="demo-content">
+                  <div
+                    class="container text-dark bg-light align-center justify-content-center"
+                  >
+                    <h2>Society of Computer Engineering Students</h2>
+                    <p class="text-center">
+                      We are a vibrant community of students passionate about
+                      empowering aspiring engineers, foster innovation, and
+                      promote excellence in computer engineering through
+                      collaborative learning, professional development, and
+                      community engagement.
+                      <br />
+                      <a href="https://www.facebook.com/uescpes">Join Now!</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="department" id="department">
         <div class="container-fluid">
-          <div class="container border my-3 py-3 text-dark text-center">
+          <div
+            class="container border my-3 py-3 text-light text-center bg-dark"
+          >
             <h1 class="fw-bolder">About the Department</h1>
           </div>
           <div class="my-2 about-dep">
@@ -360,12 +409,12 @@
                       After three to five years from graduation, the Computer
                       Engineering alumni shall:
                     </p>
-                    <ol>
-                      <li>
+                    <ol class="list-group list-group-flush">
+                      <li class="list-group-item">
                         Have pursued advancement towards becoming globally
                         competitive leaders in their chosen field of practice
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Be a contributor to the development of a progressive
                         society, guided by the UE core values of Excellence,
                         Integrity, Professionalism, Teamwork, Commitment,
@@ -383,49 +432,53 @@
                 <div class="card text-start">
                   <div class="card-header">PROGRAM OUTCOMES</div>
                   <div class="card-body">
-                    <ol class="card-text" type="A">
-                      <li>
+                    <ol class="card-text list-group list-group-flush">
+                      <li class="list-group-item">
                         Apply knowledge of mathematics, science and engineering
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Design and conduct experiments, as well as to analyze
                         and interpret data
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Design a system, component or processes to meet desired
                         needs within realistic constraints
                       </li>
-                      <li>Function on multi-disciplinary teams</li>
-                      <li>
+                      <li class="list-group-item">
+                        Function on multi-disciplinary teams
+                      </li>
+                      <li class="list-group-item">
                         Identify, formulate and solve engineering problems
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Have an understanding of professional and ethical
                         responsibilities.
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Communicate effectively in both Filipino and English
                         languages
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Have an understanding of the impact of engineering
                         solutions in a global and societal context
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Recognize the need for, and an ability to engage in
                         life-long learning
                       </li>
-                      <li>Apply knowledge of contemporary issues</li>
-                      <li>
+                      <li class="list-group-item">
+                        Apply knowledge of contemporary issues
+                      </li>
+                      <li class="list-group-item">
                         Use techniques, skills and modern engineering tools
                         necessary for the practice of computer engineering.
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Apply knowledge and understanding of engineering and
                         management principles as a member and leader in a team
                         to manage projects and in multidisciplinary environments
                       </li>
-                      <li>
+                      <li class="list-group-item">
                         Understand at least one specialized field of computer
                         engineering practice
                       </li>
@@ -437,6 +490,30 @@
           </div>
         </div>
       </div>
+      
     </main>
+    <footer>
+      <div class="footer-inner">
+        <div class="wrapper clearfix">
+          <div class="link-box">
+            <h4>About Us</h4>
+            <div class="clearfix">
+              <a href="">Link (no function)</a>
+              <a href="">Link (no function)</a>
+              <a href="">Link (no function)</a>
+            </div>
+          </div>
+          <div class="link-box">
+            <h4>Contact</h4>
+            <div class="clearfix">
+              <a href="">Link (no function)</a>
+              <a href="">Link (no function)</a>
+              <a href="">Link (no function)</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
